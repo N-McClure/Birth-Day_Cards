@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <!-- Title of the Tab: -->
+    <title>BirthDay Wishes</title>
+
+    <body>
+        <!-- Link to external CSS File: -->
+        <link rel = "stylesheet" href = "Munch_BirthDay-CSS.css">
+
+            <!-- Link to external JavaScript File: -->
+            <script src = "Munch_JS.js"></script>
+
+        <!-- The Header: -->
+        <h1>HAPPY BIRTH-DAY MUNCH!</h1>
+
+        <!-- Table for Cheesy Message from ME: -->
+        <table id = "Message">
+            <tr>
+                <td>
+                    <h2>Happy Birth-Day Munch!!!</h2>
+                    <br>
+                    <!-- Messages go HERE: -->
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!-- Plays the Happy Birth-Day Audio File Looped: -->
+                    <audio controls autoplay loop>
+                        <source id = "AudioControls" src = "MultiMedia/happy-birthday-music-box.mp3">
+                    </audio>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3 onclick="return generateImage()">Generate Random Em Image</h3>
+                </td>
+                <!-- JavaScript will Manipulate the DOM to load the Image: -->
+            </tr>
+
+        </table>
+
+    </body>
+
+</html>

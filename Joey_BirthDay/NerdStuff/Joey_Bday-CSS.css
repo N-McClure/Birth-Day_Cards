@@ -1,0 +1,101 @@
+/*Brings Headers to the very top of Screen: */
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/*BackGround Image: */
+body
+{
+    background-image:url('MultiMedia/PurpleWallpaper.jpg');
+    background-size: 33.3%;
+    background-color: transparent;
+}
+
+/*The Header: */
+h1
+{
+    background-image: linear-gradient(rgb(126, 0, 164), rgb(148, 0, 193), rgb(225, 0, 255));
+    padding-bottom: 10px;
+    padding-left: 30%;
+    color: rgb(0, 0, 134);
+    text-shadow: 2px 1px white;
+}
+
+h2,h3:hover
+{
+    color: white;
+}
+
+h3
+{
+    color: rgb(0, 0, 134);
+}
+
+img
+{
+   height: 15%; 
+   width: 60%;
+   padding-left: 10%;
+   padding-bottom: 5%;
+}
+
+#genImage
+{
+    width: 60%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+#Message
+{
+    background-image: linear-gradient(rgb(126, 0, 164), rgb(148, 0, 193), rgb(225, 0, 255));
+    padding-left: 11%;
+    padding-right: 11%;
+    width: 80%;
+
+    border: solid 5px;
+    border-color: rgb(0, 0, 134);
+
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#NewPage
+{
+    background-color: rgb(194, 0, 194);
+    padding-left: 10%; 
+
+    border: solid 5px;
+    border-color:rgb(0,0,134);
+}
+#NewPage:hover
+{
+    border: solid 5px white;
+}
+
+a:link 
+{
+    color: white;
+    text-decoration: none;
+}
+
+table
+{
+    text-align: center;
+}
+
+#textBox
+{
+    height:30px;
+    width:350px;
+    border-radius: 15px;
+}
+#enterButton
+{
+    height: 30px;
+    border-radius: 10px;
+}
